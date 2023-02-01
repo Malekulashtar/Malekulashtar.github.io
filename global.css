@@ -1,0 +1,39 @@
+:root {
+  /* fonts */
+  --font-prompt: Prompt;
+  --font-averia-libre: "Averia Libre";
+  --font-dosis: Dosis;
+  --font-great-vibes: "Great Vibes";
+  --font-inter: Inter;
+  --font-junge: Junge;
+
+  /* font sizes */
+  --font-size-base: 18px;
+  --font-size-sm: 19px;
+  --font-size-lg: 20px;
+  --font-size-sxl: 22px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 28px;
+  --font-size-3xl: 32px;
+  --font-size-4xl: 40px;
+  --font-size-4point5xl: 53px;
+  --font-size-5xl: 56px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-teal: #3c87a9;
+  --color-gray-100: #f2f2f2;
+  --color-gray-200: #ddeef8;
+  --color-gray-300: #3f3d56;
+  --color-gray-400: rgba(245, 245, 245, 0.5);
+  --color-gray-500: rgba(0, 0, 0, 0.68);
+  --color-gray-600: rgba(221, 238, 248, 0.58);
+  --color-gray-700: rgba(230, 230, 230, 0.7);
+  --color-white: #fff;
+  --color-indigo-100: #5500aa;
+
+  /* border radiuses */
+  --br-sm: 5px;
+  --br-md: 10px;
+  --br-lg: 20px;
+}
