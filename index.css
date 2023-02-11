@@ -26,7 +26,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  display: inline-block;
+  display: block;
 }
 .malekulashtar {
   top: 20px;
@@ -2016,19 +2016,47 @@ body {
 }
 
 @media (max-width: 1024px) {
+  .macbook-air-1{
+    height: 3825px;
+  }
+  .malekulashtar1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-3xl);
+    letter-spacing: 0.05em;
+    font-family: var(--font-great-vibes);
+    color: #7400aa;
+    text-align: left;
+    width: 40%;
+    float: left;
+  }
   .group-div1 {
-    left: 400px;
-    width: 30%;
-    height: 25px;
+    position: relative;
+    top: -10%;
+    left: 0;
+    right: 0;
+    width: 60%;
+    height: auto;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .group-div1 a{
+    position: relative;
+    top: 0;
+    padding: 0;
+    padding-left: 30px;
   }
 
   .about,
 .home,
 .services,
 .work {
-  position: absolute;
-  top: 5px;
-  left: 60px;
+  position: relative;
+  top: 0;
+  left: 0;
   font-size: 16px;
   font-family: var(--font-prompt);
   color: var(--color-black);
@@ -2038,20 +2066,25 @@ body {
 .about,
 .services,
 .work {
-  left: 150px;
+  left: 0;
 }
 .about,
 .work {
-  left: 260px;
+  left: 0;
 }
 .about {
-  left: 340px;
+  left: 0;
 }
 .frame-div1 {
-  top: 0;
-  left: 424px;
+  position: relative;
+  top: 5px;
+  left: 0;
   width: 90px;
   height: 35px;
+  display: inline-block;
+}
+.group-div1 #contact{
+  top: 15%;
 }
 .contact {
   top: 8px;
@@ -2063,24 +2096,18 @@ body {
   display: inline-block;
 }
 .group-nav {
+  position: relative;
   left: 5%;
-  width: 80%;
+  width: 90%;
 }
-.malekulashtar1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: var(--font-size-3xl);
-  letter-spacing: 0.05em;
-  font-family: var(--font-great-vibes);
-  color: #7400aa;
-  text-align: left;
-  display: inline-block;
-}
+
 .group-section {
-  top: 180px;
-  left: 20px;
+  position: relative;
+  top: 0;
+  margin-top: 15%;
+  left: 0;
   font-size: var(--font-size-base);
+  float: left;
 }
 .hello-im,
 .malekulashtar {
@@ -2089,21 +2116,21 @@ body {
 }
 .malekulashtar {
   top: 20px;
-  font-size: 72px;
+  font-size: 64px;
   font-weight: 500;
 }
 .website-application-develope {
-  top: 120px;
+  top: 100px;
   left: 0;
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-xl);
 }
 .developing-applications-and-we {
-  top: 200px;
+  top: 170px;
   left: 0;
-  font-size: 20px;
+  font-size: 18px;
 }
 .frame-button {
-  top: 275px;
+  top: 255px;
   left: 0;
   width: 150px;
   height: 45px;
@@ -2115,17 +2142,26 @@ body {
   font-weight: 500;
 }
 .undraw-programming-re-kg9v-1 {
-  top: 140px;
-  left: 475px;
-  width: 40%;
-  height: 400.26px;
+  position: relative;
+  top: 20%;
+  left: 0;
+  margin-left: 5%;
+  float: left;
+  width: 43%;
+  height: 350.26px;
 }
 .group-section1 {
   top: 54px;
   left: 55%;
   width: 50%;
   height: 323px;
-  font-size: var(--font-size-3xl);
+  font-size: var(--font-size-xl);
+}
+.group-section1 .about-me{
+  left: 55px;
+}
+.group-section1 .line-icon{
+  top: 15px;
 }
 .group-section2 {
   left: 0;
@@ -2139,13 +2175,14 @@ body {
   letter-spacing: 0.05em;
   font-weight:bolder;
   display: inline-block;
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-sm);
 }
 .designing-and-developing-websi {
   top: 64px;  
   left: 10px;
-  font-size: var(--font-size-base);
+  font-size: 14px;
   font-family: var(--font-dosis);
+  letter-spacing: 0.1em;
   color: var(--color-gray-700);
   width: 95%;
 }
@@ -2158,10 +2195,11 @@ body {
 .digital-marketing {
   position: absolute;
   top: 11px;
-  left: 25px;
+  left: 15px;
   letter-spacing: 0.05em;
   font-weight:bolder;
   display: inline-block;
+  font-size: var(--font-size-sm);
   width: 100%;
 }
 .frame-div3 {
@@ -2173,10 +2211,11 @@ body {
 .graphic-design {
   position: absolute;
   top: 12px;
-  left: 35px;
+  left: 25px;
   letter-spacing: 0.05em;
   font-weight:bolder;
   display: inline-block;
+  font-size: var(--font-size-sm);
   width: 100%;
 }
 .frame-div4 {
@@ -2188,10 +2227,11 @@ body {
 .app-development {
   position: absolute;
   top: 10px;
-  left: 25px;
+  left: 15px;
   letter-spacing: 0.05em;
   font-weight:bolder;
   display: inline-block;
+  font-size: var(--font-size-sm);
   width: 100%;
 }
 .frame-div5 {
@@ -2201,16 +2241,17 @@ body {
   height: 260px;
 }
 .better-technology-better-growt {
-  top: 50px;
+  top: 40px;
   left: 0;
-  font-size: 48px;
+  font-size: 40px;
   letter-spacing: 0.05em;
   font-weight: 600;
 }
 .giving-best-efforts-to-build-a {
-  top: 215px;
+  top: 175px;
   left: 0;
-  font-size: var(--font-size-lg);
+  letter-spacing: 0.04em;
+  font-size: var(--font-size-base);
 }
 .group-div2 {
   top: 750px;
@@ -2242,8 +2283,8 @@ body {
 }
 .frame-div18 {
   top: 0;
-  left: 60%;
-  width: 40%;
+  left: 53%;
+  width: 50%;
   height: 60px;
 }
 .frame-div17,
@@ -2261,7 +2302,7 @@ body {
   top: 1520px;
   left: 0;
   width: 100%;
-  height: 721px;
+  height: 625px;
 }
 .frame-button1 {
   width: 34%;
@@ -2298,6 +2339,7 @@ body {
 }
 
 .group-div6 {
+  top: 2125px;
   left: 0;
   width: 90%;
   margin-left: 5%;
@@ -2307,17 +2349,19 @@ body {
   width: 50%;
   height: auto;
   text-align: left;
-  font-size: var(--font-size-3xl);
+  font-size: var(--font-size-xl);
 }
 .vecteezy-design-web-interface-icon {
   left: 53%;
-  margin-top: 10%;
+  margin-top: 15%;
   width: 50%;
   height: auto;
 }
-
+.group-div8 .line-icon {
+  top: 15px;
+}
 .about-me {
-  left: 78px;
+  left: 55px;
   letter-spacing: 0.05em;
   display: inline-block;
 }
@@ -2326,18 +2370,20 @@ body {
   height: auto;
 }
 .i-build-and-design-digital-pro {
-  font-size: var(--font-size-4point5xl);
+  font-size: var(--font-size-4xl);
   letter-spacing: 0.05em;
   font-weight: bolder;
 }
 .giving-best-efforts-to-build-a1 {
-  font-size: var(--font-size-sm);
+  top: 175px;
+  font-size: var(--font-size-base);
 }
 .group-div7{
   width: 100%;
   height: auto;
 }
 .group-div9 {
+  top: 300px;
   width: 100%;
   height: auto;
   font-size: var(--font-size-lg);
@@ -2350,6 +2396,7 @@ body {
   height: auto;
 }
 .group-div3{
+  top: 2750px;
   left: 0;
   width: 90%;
   margin-left: 5%;
@@ -2373,7 +2420,7 @@ body {
 .chennai {
   top: 0;
   left: 0;
-  margin-left: 30%;
+  margin-left: 25%;
   margin-top: 27.5%;
   font-weight: 400;
   display: inline-block;
@@ -2397,7 +2444,7 @@ body {
   position: absolute;
   top: 79px;
   left: 0;
-  margin-left: 25%;
+  margin-left: 20%;
   font-weight: 400;
   display: inline-block;
 }
@@ -2423,9 +2470,10 @@ body {
   position: absolute;
   top: 79px;
   left: 0;
-  margin-left: 2.5%;
+  margin-left: 12.5%;
   font-weight: 400;
   display: inline-block;
+  font-size: var(--font-size-lg);
 }
 .mail-checkmark-icon-1 {
   position: absolute;
@@ -2449,9 +2497,9 @@ body {
   position: absolute;
   top: 77px;
   left: 0;
-  margin-left: 10%;
+  margin-left: 15%;
   font-weight: 400;
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-sm);
   display: inline-block;
 }
 .complete-icon-1 {
@@ -2473,6 +2521,9 @@ body {
   border-radius: var(--br-lg);
   background-color: var(--color-gray-600);
   height: 129px;
+}
+.frame-div10{
+  top: 5px;
 }
 
 .frame-div11 {
@@ -2516,8 +2567,16 @@ body {
   left: 15%;
 }
 
+.frame-footer{
+  top:3625px;
+}
+.line-icon3{
+  margin-top: 9%;
+}
+
 .malekulashtar4{
   top: 18%;
+  left: 75px;
 }
 .black-instagram-1-icon, .facebook-1-icon, .whatsapp-1-icon {
     top: 20%;
@@ -2534,57 +2593,164 @@ body {
 .group-div5{
   top: 50%;
 }
+
 }
 
+
 @media (max-width:500px) {
-  
-  .group-div1 a:not(:first-child) {display: none;}
+  .macbook-air-1 {
+    height: auto;
+  }
+  .frame-div{
+    position: relative;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+        
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+  }
+  .group-div1{
+    position: absolute;
+    top: -5px;
+    left: 65%;
+    right: 0!important;
+    width: 50%;
+    float: right;
+  }
+  .fa{
+    font-size: 25px!important;
+  }
+  .group-div1 a:not(:last-child) {display: none;}
   .group-div1 a.icon {
     float: right;
     display: block;
   }
-  .group-div1.responsive {position: relative;}
+  .group-div1.responsive {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, .7);
+    height: 90vh;
+    border-radius: 10px;
+    display: block;
+  }
   .group-div1.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
+    text-align: right!important;
+  }
+  .group-div1.responsive a:not(:last-child){
+    position: relative;
+    top: 8%;
+     margin-left: 4%;
+    width: 100%;
+  }
+  .group-div1.responsive .frame-div1{
+    width: 60%;
+    margin-left: 20%;
+    float: left;
+    text-align: center;
+    height: 42px;
+  }
+  .group-div1.responsive .contact{
+    text-align: center;
+    font-size: 18px;
+    top: 10px;
+    left: 20px;
+    margin-left: 20%;
+  }
+  
+  .group-div1.responsive a:not(:last-child) div{
+    font-size: 18px;
+    margin-bottom: 25%;
+    text-decoration: underline;
+    color: white;
   }
   .group-div1.responsive a {
-    float: none;
     display: block;
-    text-align: left;
-  }
-
-  .group-section{
     width: 100%;
-    top: 50%;
-    left: 0;
-    margin-left: 3%;
+    color: white!important;
+    padding-left: 0;
+    text-align: center;
   }
-  .hello-im{
+  .group-nav{
+    position: relative;
+    top: 0;
+    margin-top: 5%;
+    height: 15%;
+    z-index: 2;
+  }
+  .undraw-programming-re-kg9v-1{
+    position: relative;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 35%;
+    margin-left: 0;
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    box-ordinal-group: 2;
+    z-index: 1;
+  }
+  .group-section{
+    position: relative;
+    width: 100%;
+    top: 0;
+    margin-top: 5%;
+    height: 40%;
+    left: 0;
+    margin-left: 3%;
+    -webkit-box-ordinal-group: 3;
+    -moz-box-ordinal-group: 3;
+    box-ordinal-group: 3;
+    z-index: 1;
+  }
+  .group-div{
+    position: relative;
+    top: 0;
+    width: 90%;
+    height: 80%;
+  }
+  .hello-im{
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 14px;
 }
   .malekulashtar {
-  top: 8%;
-  font-size: 42px!important;
+  position: relative;
+  top: 0;
+  margin-top: 0;
+  font-size: 48px!important;
   font-weight: 500;
 }
-.website-application-develope {
-  top: 25%;
+.website-application-develope { 
+  position: relative;
+  top: 0;
+  margin-top: 2px;
   left: 0;
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-sm);
 }
 .developing-applications-and-we {
-  top: 45%;
+  position: relative;
+  top: 0;
+  margin-top: 3%;
   left: 0;
-  font-size: 18px;
+  height: auto;
+  font-size: 14px;
 }
 .frame-button {
-  top: 60%;
+  position: relative;
+  top: 0;
+  margin-top: 5%;
   left: 0;
+  display: inline-block;
   width: 94%;
-  height: 45px;
+  height: 18%;
 }
 .get-in-touch {
   top: 8px;
@@ -2592,21 +2758,16 @@ body {
   font-size: var(--font-size-base);
   font-weight: 500;
 }
-.undraw-programming-re-kg9v-1{
-  top: 17%;
-  left: 0;
-  width: 100%;
-  height: 30%;
-  margin-left: 0;
-}
 
 .group-div2 {
-  top: 19%;
-  left: 5%;
+  position: relative;
+  top: 0;
+  margin-top: 30px;
   width: 90%;
   height: auto;
 }
 .group-section1 {
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -2617,27 +2778,44 @@ body {
   font-family: var(--font-averia-libre);
 }
 .about-me {
-  left: 10%;
+  left: 5px;
   letter-spacing: 0.05em;
 }
 .line-icon {
+  position: relative;
   top: 80%;
-  width: 8%;
-  height: 30px;
+  width: 15%;
+  height: 45px;
+}
+.line-icon4{
+  top: 24.5px;
+}
+.projects{
+  margin-left: 20%;
+}
+.group-section1 .about-me{
+  left: 0;
 }
 .better-technology-better-growt {
-  top: 40px;
+  position: relative;
+  top: 10px;
   font-size: 46px;
   letter-spacing: 0.03em;
   font-weight: 600;
 }
 .giving-best-efforts-to-build-a {
-  top: 220px;
+  position: relative;
+  top: 0;
+  margin-top: 10%;
   font-size: var(--font-size-sm);
 }
+.giving-best-efforts-to-build-a1 {
+  font-size: var(--font-size-base);
+}
 .group-section2 {
+  position: relative;
   top: 0;
-  margin-top: 100%;
+  margin-top: 10%;
   left: 0;
   width: 100%;
   height: auto;
@@ -2647,18 +2825,20 @@ body {
   font-family: var(--font-averia-libre);
 }
 .frame-div2 {
+  position: relative;
   top: 0;
-  margin-top: 40%;
+  margin-top: 10%;
   left: 1px;
   border: 3px solid var(--color-white);
   width: 100%;
   height: 200px;
 }
 .web-development{
+  position: relative;
   font-size: var(--font-size-xl);
 }
 .digital-marketing {
-  position: absolute;
+  position: relative;
   top: 11px;
   left: 25px;
   letter-spacing: 0.05em;
@@ -2666,8 +2846,9 @@ body {
   display: inline-block;
 }
 .frame-div3 {
+  position: relative;
   top: 0;
-  margin-top: 330px;
+  margin-top: 5%;
   left: 1px;
   border-radius: var(--br-md);
   border: 3px dashed var(--color-white);
@@ -2678,7 +2859,7 @@ body {
   color: var(--color-teal);
 }
 .graphic-design {
-  position: absolute;
+  position: relative;
   top: 12px;
   left: 35px;
   letter-spacing: 0.05em;
@@ -2686,8 +2867,9 @@ body {
   display: inline-block;
 }
 .frame-div4 {
+  position: relative;
   top: 0;
-  margin-top: 550px;
+  margin-top: 5%;
   left: 0;
   border-radius: var(--br-md);
   border: 3px solid var(--color-white);
@@ -2697,7 +2879,7 @@ body {
   height: 200px;
 }
 .app-development {
-  position: absolute;
+  position: relative;
   top: 10px;
   left: 25px;
   letter-spacing: 0.05em;
@@ -2705,9 +2887,9 @@ body {
   display: inline-block;
 }
 .frame-div5 {
-  position: absolute;
+  position: relative;
   top: 0;
-  margin-top: 770px;
+  margin-top: 5%;
   left: 0;
   border-radius: var(--br-md);
   border: 3px dashed var(--color-white);
@@ -2718,67 +2900,182 @@ body {
   color: var(--color-teal);
 }
 .frame-div17 {
+  position: relative;
   top: 0;
-  margin-top: 630%;
-  left: 0;
+  margin-top: 15%;
   width: 100%;
-  height: 1000px;
+  height: auto;
+}
+.group-div14,.group-div15{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.group-div15{
+  margin-top: 10%;
+}
+.here-are-some-of-my-projects-f{
+  font-size: var(--font-size-base);
+}
+.website-application{
+  display: inline;
+}
+.designer{
+  display: inline-block;
+}
+.group-div14{
+  margin-top: 0;
+  height: auto;
 }
 .frame-div18{
   display: none;
 }
 #web1,#web2{
   width: 100%;
-  margin-left: 0;
-  height: 385px;
+  margin-left: 0!important;
+  height: auto;
   object-fit: cover;
   z-index: -1;
 }
+.overlay,.overlay1{
+  display: none;
+}
 .screencapture-ufb-tasiratradec-icon,
 .screencapture-ufb-tasiratradec-icon1 {
+  position: relative;
   top: 10px;
   width: 100%;
 }
 .screencapture-ufb-tasiratradec-icon1 {
+  position: relative;
   left: 0;
-  top: 250px;
+  top: 10px;
   width: 100%;
 }
 .screencapture-ufb-tasiratradec-icon2 {
+  position: relative;
   left: 0;
-  top: 450px;
+  top: 10px;
   width: 120%;
 }
+.group-div6{
+  position: relative;
+  top: 0;
+}
+.group-div8{
+  font-size: var(--font-size-xl);
+}
+.group-section4{
+  position: relative;
+  top: 0;
+  margin-top: 15%;
+  width: 100%;
+}
+.vecteezy-design-web-interface-icon{
+  position: relative;
+}
+.group-div7,.group-div8,.group-div9{
+  position: relative;
+}
+.group-div9{
+  top: 0;
+  margin-top: 10%;
+}
+.group-div10,.group-div11,.group-div12,.group-div13{
+  position: relative;
+  width: 40%;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  font-size: 13px;
+}
+.group-div11{
+  margin-left: 10%;
+}
+.group-div12,.group-div13{
+  margin-top: 10%;
+}
+.group-div13{
+  margin-left: 10%;
+}
+.problem-solving,.high-quality{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline;
+}
+.underlined-check-line-icon-1{
+  position: relative;
+  display: inline;
+  width: 13px;
+  height: auto;
+}
+.i-build-and-design-digital-pro,.giving-best-efforts-to-build-a1,.about-me{
+  position: relative;
+  top: 0;
+  margin-top: 5%;
+}
+.vecteezy-design-web-interface-icon{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 .group-div4 {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: auto;
   margin-left: 10%;
   margin-top: 20px;
   width: 100%;
 }
 .group-div3{
+  position: relative;
+  top: 0;
+  left: 0;
   width: 90%;
+  height: auto;
   margin-left: 5%;
 }
 .group-section3 {
+  position: relative;
   top: 0;
-  margin-top: 260%;
+  margin-top: 20px;
   width: 100%!important;
   height: auto;
   font-size: var(--font-size-2xl);
 }
 .frame-div10 {
-  top:-15px;
+  position: relative;
+  top:0;
   left: 0;
   width: 100%;
   margin-left: 0;
-  margin-top: 55%;
+  margin-top: 10px;
   border-radius: var(--br-md);
   overflow:visible;
   font-size: var(--font-size-lg);
   height: 570px;
 }
+.contact1,.lets-connect{
+  position: relative;
+}
+.contact1{
+  left: 0;
+}
+.line-icon1{
+  position: relative;
+  top: 0;
+  margin-bottom: 5px;
+  margin-left: 10%;
+  width: 40px;
+  height: 2px;
+}
 .lets-connect{
   font-size: var(--font-size-3xl);
   margin-left: 10%;
+  top: 0;
 }
 .frame-div11,.frame-div12,.frame-div13,.frame-div14{
   width: 90%;
@@ -2789,7 +3086,10 @@ body {
   font-size: 14px!important;
   padding: 8px!important;
 }
-
+.frame-div6,.frame-div7,.frame-div8,.frame-div9{
+  position: relative;
+  top: 0;
+}
 .frame-div11{
   top: 5%;
 }
@@ -2832,6 +3132,7 @@ body {
   margin-left: 45%;
 }
 .frame-div6 {
+  top: 0;
   border-radius: var(--br-md);
   background-color: var(--color-gray-600);
   width: 47.5%;
@@ -2858,7 +3159,7 @@ body {
   object-fit: cover;
 }
 .frame-div7 {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 52.5%;
   border-radius: var(--br-md);
@@ -2875,6 +3176,7 @@ body {
   margin-top: 30.5%;
   font-size: 13px;
   display: inline-block;
+  margin-left: 3.5%;
 }
 .mail-checkmark-icon-1 {
   position: absolute;
@@ -2886,15 +3188,16 @@ body {
   margin-left: 45%;
 }
 .frame-div8 {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
-  margin-top: 30%;
+  margin-top: 10px;
   border-radius: var(--br-md);
   background-color: var(--color-gray-600);
   font-size: 14px;
   width: 47.5%;
   height: 75px;
+  float: left;
 }
 .freelance-available {
   position: absolute;
@@ -2915,10 +3218,10 @@ body {
   object-fit: cover;
 }
 .frame-div9 {
-  position: absolute;
+  position: relative;
   left: 52.5%;
   top: 0;
-  margin-top: 30%;
+  margin-top: 10px;
   border-radius: var(--br-md);
   background-color: var(--color-gray-600);
   width: 47.5%;
@@ -2955,11 +3258,11 @@ body {
   font-family: var(--font-averia-libre);
 }
 .designed-by-malekulashtar {
-  position: absolute;
-  top: 0;
+  position: relative;
+  top: 50%;
   left: 0;
   margin-left: 10%;
-  margin-top: 10%;
+  margin-top: 10px;
   display: inline-block;
   font-family: var(--font-prompt);
   font-size: var(--font-size-base);
@@ -2967,11 +3270,11 @@ body {
   color: #EDEADE;
 }
 .group-div5 {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
-  margin-top: 25%;
+  margin-top: 15%;
   margin-left: 5%;
   height: 30.02px;
 }
@@ -3014,9 +3317,10 @@ body {
   margin-left: 85%;
 }
 .frame-footer {
-  position: absolute;
-  top: 3975px;
+  position: relative;
+  top:0;
   left: 0;
+  margin-top: 40px;
   background-color: var(--color-teal);
   width: 100%;
   height: 209px;
