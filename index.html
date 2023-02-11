@@ -35,6 +35,19 @@
   <body>
     <div class="macbook-air-1">
       <div class="frame-div" id="landing">
+          <nav class="group-nav">
+            <div class="malekulashtar1">Malekulashtar</div>
+            <div class="group-div1" id="myTopnav">
+              <a href="#" onclick="myFunction()"><div class="home">Home</div></a>
+              <a href="#services" onclick="myFunction()"><div class="services">Services</div></a>
+              <a href="#projects" onclick="myFunction()"><div class="work">Work</div></a>
+              <a href="#about" onclick="myFunction()"><div class="about">About</div></a>
+              <a href="#contact" onclick="myFunction()"><div class="frame-div1"><div class="contact">Contact</div></div></a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+          </nav>
           <section class="group-section" id="landing-left">
             <div class="group-div">
               <div class="hello-im">Hello ! I‘m</div>
@@ -54,19 +67,6 @@
               <div class="get-in-touch">Get in Touch</div>
             </a>
           </section>
-          <nav class="group-nav">
-            <div class="group-div1" id="myTopnav">
-              <a href="#contact"><div class="frame-div1"><div class="contact">Contact</div></div></a>
-              <a href="#"><div class="home">Home</div></a>
-              <a href="#services"><div class="services">Services</div></a>
-              <a href="#projects"><div class="work">Work</div></a>
-              <a href="#about"><div class="about">About</div></a>
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-              </a>
-            </div>
-            <div class="malekulashtar1">Malekulashtar</div>
-          </nav>
           <section class="undraw-programming-re-kg9v-1" id="lnding-right">
             <img class="vector-icon" alt="" src="public/vector.svg" /><img
               class="vector-icon1"
@@ -273,11 +273,12 @@
               src="public/vector99.svg"
             />
           </section>
+          
       </div>
       <div class="group-div2" id="services">
         <section class="group-section1" id="services-right">
-          <div class="about-me">Services</div>
           <img class="line-icon" alt="" src="public/line-1.svg" />
+          <div class="about-me">Services</div>
           <div class="better-technology-better-growt">
             <p class="website-application">Better Technology</p>
             <p class="designer">Better Growth</p>
@@ -321,55 +322,51 @@
           </div>
         </section>
       </div>
-      <div class="group-div3" id="contact">
-        <div class="group-div4">
-          <div class="contact1">Contact</div>
-          <div class="lets-connect">Let’s Connect</div>
-          <img class="line-icon1" alt="" src="public/line-11.svg" />
+      <div class="frame-div17" id="projects"> 
+        <div class="group-div15" id="projects-text">
+          <img class="line-icon4" alt="" src="public/line-11.svg" />
+          <div class="projects">Projects</div>
+          <div class="here-are-some-of-my-projects-f">
+            <p class="website-application">Here are some of my projects for</p>
+            <p class="designer">Websites and Applications.</p>
+          </div>
+          <div class="frame-div18" id="projects-nav">
+            <button onclick="showApp()" class="frame-button1" autofocus>
+              <div class="applications">Applications</div></button
+            ><button onclick="showWebsites()" class="frame-button2" autofocus>
+              <div class="websites">Websites</div></button
+            ><button onclick="showAll()" class="frame-button3" autofocus>
+              <div class="all-works">All Works</div>
+            </button>
+          </div>
         </div>
-        <section class="group-section3" id="contact-left">
-          <div class="frame-div6">
-            <div class="chennai">Chennai</div>
+        <div class="group-div14" id="projects-image">
+          <div id="web1">
             <img
-              class="search-map-location-icon-1"
+              class="screencapture-ufb-tasiratradec-icon"
               alt=""
-              src="public/searchmaplocationicon-1@2x.png"
+              src="public/web1.png"
             />
+            <div class="overlay">
+              <div class="button"><a href="http://ufb.tasiratradecentre.com/"> View Website </a></div>
+            </div>
           </div>
-          <div class="frame-div7">
-            <div class="div">8248117453</div>
+          
+          <div id="web2">
             <img
-              class="ringing-phone-outline-icon-1"
+              class="screencapture-ufb-tasiratradec-icon1"
               alt=""
-              src="public/ringingphoneoutlineicon-1@2x.png"
+              src="public/web2.png"
             />
+            <div class="overlay1">
+              <div class="button"><a href="https://tasiratradecentre.com/"> View Website </a></div>
+            </div>
           </div>
-          <div class="frame-div8">
-            <div class="afmul53gmailcom">afmul53@gmail.com</div>
-            <img
-              class="mail-checkmark-icon-1"
-              alt=""
-              src="public/mailcheckmarkicon-1@2x.png"
-            />
-          </div>
-          <div class="frame-div9">
-            <div class="freelance-available">Freelance Available</div>
-            <img
-              class="complete-icon-1"
-              alt=""
-              src="public/completeicon-1@2x.png"
-            />
-          </div>
-        </section>
-        <div class="frame-div10" id="contact-form">
-          <input style="font-size: 20px;padding: 15px;" type="text" placeholder="Your Name" class="frame-div11" />
-          <input style="font-size: 20px;padding: 15px;" type="text" placeholder="Your Email" class="frame-div12" />
-          <input style="font-size: 20px;padding: 15px;" type="text" placeholder="Your Subject" class="frame-div13" />
-          <input style="font-size: 20px;padding: 15px;" type="text" placeholder="Your Phone" class="frame-div14" />
-          <input style="font-size: 20px;padding: 15px;" type="text" placeholder="Your Message" class="frame-div15" />
-          <div class="frame-div16">
-            <div class="send-message">Send Message</div>
-          </div>
+          <img id="app"
+            class="screencapture-ufb-tasiratradec-icon2"
+            alt=""
+            src="public/mob1.png"
+          />
         </div>
       </div>
 
@@ -377,8 +374,8 @@
         <section class="group-section4" id="about-left">
           <div class="group-div7">
             <div class="group-div8">
-              <div class="about-me">About Me</div>
               <img class="line-icon" alt="" src="public/line-11.svg" />
+              <div class="about-me">About Me</div>
             </div>
             <div class="i-build-and-design-digital-pro">
               <p class="website-application">I build and design</p>
@@ -436,53 +433,59 @@
           src="public/vecteezy-designwebinterfacewebsitecomputerdevelopment-7096374removebgpreview-1@2x.png"
         />
       </div>
-      <div class="frame-div17" id="projects">
-        <div class="group-div14" id="projects-image">
-          <div id="web1">
-            <img
-              class="screencapture-ufb-tasiratradec-icon"
-              alt=""
-              src="public/web1.png"
-            />
-            <div class="overlay">
-              <div class="button"><a href="http://ufb.tasiratradecentre.com/"> View Website </a></div>
-            </div>
-          </div>
-          
-          <div id="web2">
-            <img
-              class="screencapture-ufb-tasiratradec-icon1"
-              alt=""
-              src="public/web2.png"
-            />
-            <div class="overlay1">
-              <div class="button"><a href="https://tasiratradecentre.com/"> View Website </a></div>
-            </div>
-          </div>
-          <img id="app"
-            class="screencapture-ufb-tasiratradec-icon2"
-            alt=""
-            src="public/mob1.png"
-          />
+
+        <div class="group-div3" id="contact"> 
+        <div class="group-div4">
+          <img class="line-icon1" alt="" src="public/line-11.svg" />
+          <div class="contact1">Contact</div>
+          <div class="lets-connect">Let’s Connect</div>
         </div>
-        <div class="group-div15" id="projects-text">
-          <div class="projects">Projects</div>
-          <img class="line-icon4" alt="" src="public/line-11.svg" />
-          <div class="here-are-some-of-my-projects-f">
-            <p class="website-application">Here are some of my projects for</p>
-            <p class="designer">Websites and Applications.</p>
-          </div>
-          <div class="frame-div18" id="projects-nav">
-            <button onclick="showApp()" class="frame-button1" autofocus>
-              <div class="applications">Applications</div></button
-            ><button onclick="showWebsites()" class="frame-button2" autofocus>
-              <div class="websites">Websites</div></button
-            ><button onclick="showAll()" class="frame-button3" autofocus>
-              <div class="all-works">All Works</div>
-            </button>
+        <div class="frame-div10" id="contact-form">
+          <input style="font-size: 20px;padding: 15px;" type="text" placeholder="Your Name" class="frame-div11" />
+          <input style="font-size: 20px;padding: 15px;" type="text" placeholder="Your Email" class="frame-div12" />
+          <input style="font-size: 20px;padding: 15px;" type="text" placeholder="Your Subject" class="frame-div13" />
+          <input style="font-size: 20px;padding: 15px;" type="text" placeholder="Your Phone" class="frame-div14" />
+          <input style="font-size: 20px;padding: 15px;" type="text" placeholder="Your Message" class="frame-div15" />
+          <div class="frame-div16">
+            <div class="send-message">Send Message</div>
           </div>
         </div>
-      </div>
+        <section class="group-section3" id="contact-left">
+          <div class="frame-div6">
+            <div class="chennai">Chennai</div>
+            <img
+              class="search-map-location-icon-1"
+              alt=""
+              src="public/searchmaplocationicon-1@2x.png"
+            />
+          </div>
+          <div class="frame-div7">
+            <div class="div">8248117453</div>
+            <img
+              class="ringing-phone-outline-icon-1"
+              alt=""
+              src="public/ringingphoneoutlineicon-1@2x.png"
+            />
+          </div>
+          <div class="frame-div8">
+            <div class="afmul53gmailcom">afmul53@gmail.com</div>
+            <img
+              class="mail-checkmark-icon-1"
+              alt=""
+              src="public/mailcheckmarkicon-1@2x.png"
+            />
+          </div>
+          <div class="frame-div9">
+            <div class="freelance-available">Freelance Available</div>
+            <img
+              class="complete-icon-1"
+              alt=""
+              src="public/completeicon-1@2x.png"
+            />
+          </div>
+        </section>
+      </div> 
+      
       <footer class="frame-footer" id="footer">
         <img class="line-icon3" alt="" src="public/line-3.svg" />
         <div class="group-div5">
@@ -510,7 +513,7 @@
           alt=""
           src="public/facebook-1@2x.png"
         /><img class="whatsapp-1-icon" alt="" src="public/whatsapp-1@2x.png" />
-      </footer>
+      </footer>  
     </div>
   </body>
   <script>
@@ -542,12 +545,15 @@
     }
     
     function myFunction() {
-      var x = document.getElementById("myTopnav");
+      if(window.innerWidth<720){
+        var x = document.getElementById("myTopnav");
       if (x.className === "group-div1") {
         x.className += " responsive";
       } else {
         x.className = "group-div1";
       }
+      }
+      
     }
   </script>
 </html>
